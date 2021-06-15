@@ -1,13 +1,14 @@
-html { box-sizing: border-box;}
-
-*, *:before, *:after { box-sizing: inherit;}
-
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
 }
-
-/******** Login ********/
+/** Login **/
 .login,
 .crear-cuenta {
     background: #455A64;
@@ -105,7 +106,7 @@ body {
     text-decoration: none;
 }
 
-/******** Barra *********/
+/** Barra **/
 body.index {
     height: 100vh;
 }
@@ -126,8 +127,7 @@ body.index {
     color: white;
     text-decoration: none;
 }
-
-/********* sidebar**********/
+/*** sidebar**/
 .contenedor-proyectos {
     height: 100%;
     max-width: 300px;
@@ -169,8 +169,7 @@ body.index {
 .lista-proyectos ul li a:hover {
     color: #FDD835;
 }
-
-/******* Contenido Principal ***********/
+/** Contenido Principal */
 .contenedor {
     display: flex;
     height: calc( 100vh - 60px);
@@ -204,7 +203,7 @@ body.index {
     transition: background-color .5s ease-in-out;
 }
 
-/********** Listado Pendientes *************/
+/** Listado Pendientes **/
 .listado-pendientes {
     background-color: #F2F2F2;
     max-width: 800px;
@@ -262,7 +261,7 @@ body.index {
     color: green;
 }
 
-/******* Linea de Avance *******/
+/** Linea de Avance **/
 .barra-avance {
     height: 30px;
     border: 1px solid #999;
@@ -288,8 +287,10 @@ form.agregar-proyecto {
     color: white;
     transition: background-color .5s ease-in-out;
 }
-form.agregar-proyecto label, form.agregar-proyecto input {  display: block;}
-
+form.agregar-proyecto label,
+form.agregar-proyecto input {
+    display: block;
+}
 form.agregar-proyecto label {
     flex: 0 0 150px;
     text-align: right;
@@ -317,6 +318,7 @@ form input[type="submit"]{
     max-width: 800px;
     margin: 2rem auto 0 auto;
     width: 90%;
+
     display: flex;
     justify-content: space-between;
 }
