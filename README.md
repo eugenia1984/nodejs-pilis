@@ -33,3 +33,6 @@ En la carpeta **explicacion_por_secciones** esta toda la teoría de los videos q
 
 ---
 
+Seguime en: [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+---
